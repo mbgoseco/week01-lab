@@ -77,7 +77,7 @@ while(!correctState && triesQ7 > 0) {
   console.log('guessState', guessState);
   for(var i = 0; i < states.length; i++) {
     if(guessState === states[i]){
-      alert('You got one! I\'ve been to Oregon, Hawaii, Arizona, Utah, Navada, Colorado, NewMexico, Texas, Oklahoma, and Florida. And I still want to see more!');
+      alert('You got one! I\'ve been to Oregon, Hawaii, Arizona, Utah, Navada, Colorado, New Mexico, Texas, Oklahoma, and Florida. And I still want to see more!');
       correctState = true;
       correctAns++;
       break;
