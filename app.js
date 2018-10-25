@@ -54,18 +54,18 @@ var triesQ6 = 4;
 var ranNum = Math.ceil(Math.random() * 10);
 console.log('ranNum', ranNum);
 while(guess !== ranNum && triesQ6 > 0) {
+  console.log('triesQ6', triesQ6);
   guess = parseInt(prompt('Now guess what number I\'m thinking of between 1 and 10 in 4 tries!'));
   console.log('guess', guess);
   if(guess === ranNum) {
     alert('You got it right!');
     correctAns++;
   }else if (guess < ranNum) {
-    triesQ6--;
     alert('Too low! You have ' + triesQ6 + ' tries left.');
   }else if (guess > ranNum) {
-    triesQ6--;
     alert('Too high! You have ' + triesQ6 + ' tries left.');
   }
+  triesQ6--;
 }
 
 var correctState = false;
@@ -73,6 +73,7 @@ var guessState;
 var triesQ7 = 6;
 var states = ['oregon', 'hawaii', 'arizona', 'utah', 'nevada', 'colorado', 'new mexico', 'texas', 'oklahoma', 'florida'];
 while(!correctState && triesQ7 > 0) {
+  console.log('triesQ7', triesQ7);
   guessState = prompt('Can you guess one of the states I\'ve travelled to besides California and Washington in 6 tries?').toLowerCase();
   console.log('guessState', guessState);
   for(var i = 0; i < states.length; i++) {
