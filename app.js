@@ -61,11 +61,12 @@ while(guess !== ranNum && triesQ6 > 0) {
     alert('You got it right!');
     correctAns++;
   }else if (guess < ranNum) {
+    triesQ6--;
     alert('Too low! You have ' + triesQ6 + ' tries left.');
   }else if (guess > ranNum) {
+    triesQ6--;
     alert('Too high! You have ' + triesQ6 + ' tries left.');
   }
-  triesQ6--;
 }
 
 var correctState = false;
