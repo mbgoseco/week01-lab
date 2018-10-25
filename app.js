@@ -78,7 +78,6 @@ function q6 () {
       triesQ6--;
       alert('Too high! You have ' + triesQ6 + ' tries left.');
     }
-  }
 }
 
 function q7() {
