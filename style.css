@@ -20,7 +20,7 @@ h2 {
   color: white;
 }
 
-h3 {
+main h3 {
   text-align: left;
   font-weight: bold;
   text-decoration: underline;
@@ -43,25 +43,20 @@ h3 {
   font-size: 14px;
   font-family: 'Trebuchet MS';
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 33px;
 }
 
 #favPlaces {
+  float: left;
   text-align: left;
   font-size: 14px;
   font-family: 'Trebuchet MS';
   color: white;
-  margin-bottom: 50px;
 }
 
-#quizHeader {
-  text-align: left;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'Trebuchet MS';
-  color: white;
-}
 #quizQuestions {
+  float: left;
+  margin-left: 40px;
   text-align: left;
   font-size: 14px;
   font-family: 'Trebuchet MS';

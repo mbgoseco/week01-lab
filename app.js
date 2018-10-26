@@ -86,7 +86,7 @@ function q7() {
   var guessState;
   var triesQ7 = 6;
   var states = ['oregon', 'hawaii', 'arizona', 'utah', 'nevada', 'colorado', 'new mexico', 'texas', 'oklahoma', 'florida'];
-  while(!correctState && triesQ7 > 0) {
+  while(!correctState && triesQ7) {
     console.log('triesQ7', triesQ7);
     guessState = prompt('Can you guess one of the states I\'ve travelled to besides California and Washington in 6 tries?').toLowerCase();
     console.log('guessState', guessState);
